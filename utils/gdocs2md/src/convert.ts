@@ -1,4 +1,4 @@
-const { ElementsOfGoogleDocument } = require("./elements-of-google-document");
+import { ElementsOfGoogleDocument } from "./elements-of-google-document";
 const json2md = require("json2md");
 const { normalizeElement } = require("./normalize-element");
 

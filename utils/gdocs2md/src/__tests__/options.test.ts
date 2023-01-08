@@ -6,7 +6,8 @@ const documentLists = require("./documents/lists.json");
 const documentQuotes = require("./documents/quotes.json");
 const documentCodes = require("./documents/codes.json");
 const documentTables = require("./documents/tables.json");
-const { ElementsOfGoogleDocument } = require("../elements-of-google-document");
+// const { ElementsOfGoogleDocument } = require("../elements-of-google-document");
+import { ElementsOfGoogleDocument } from "../elements-of-google-document";
 
 test.skip(`"KeepDefaultStyle" option`, () => {
   const options = { keepDefaultStyle: true };
